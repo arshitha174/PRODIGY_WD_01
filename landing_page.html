@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landing_page.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" onclick="openNavbar()"></span>
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()"></a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <img src="https://th.bing.com/th/id/OIP.cILXtCSaV-B2-DEYKMIJ0QAAAA?rs=1&pid=ImgDetMain" width="500">
+        </div>
+        <div class="side2">
+            <h1>Learn Programming Language</h1>
+            <button>
+                <a href="https://www.codecademy.com/">Know more</a>
+            </button>
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="https://www.python.org/about/gettingstarted/" class= "hover-link">Python</a>
+                    </div>
+                    <p>
+                        Python is a high-level, general-purpose programming language.
+                        Its design philosophy emphasizes code readability with the use of significant indentation.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="https://www.tutorialspoint.com/javascript/index.htm" class= "hover-link">JavaScript</a>
+                    </div>
+                    <p>
+                        JavaScript , often abbreviated as JS, is a programming language and core technology of the Web,
+                        alongside HTML and CSS.
+                        99% of websites use JavaScript on the client side for webpage behavior.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="https://html.com/" class= "hover-link">HTML</a>
+                    </div>
+                    <p>
+                        HyperText Markup Language (HTML) is the standard markup language for documents designed to be
+                        displayed in a web browser.
+                        It defines the content and structure of web content.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                    Arshitha V N 
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="landing_page.js"></script>
+</body>
+
+</html>
